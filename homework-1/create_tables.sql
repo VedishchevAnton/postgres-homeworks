@@ -4,7 +4,7 @@ CREATE TABLE employees
 	first_name varchar(30) NOT NULL,
 	last_name varchar(30) NOT NULL,
 	title varchar(100) NOT NULL,
-	birth_date date,
+	birth_date date NOT NULL,
 	notes text
 );
 
